@@ -19,3 +19,5 @@ jobs:
       - run: npm test
       - run: npm run validate:content
       - run: npm run build
+      - run: npm prune --omit=dev
+      - run: npm run verify:runtime

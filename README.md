@@ -19,6 +19,7 @@ Open `http://localhost:3000`. The development launcher runs Vite on port 3000 an
 npm test                 # rules, service/security, client content, and Vite privacy
 npm run validate:content # exact authored graphs/decks and all 60 certificates
 npm run build            # TypeScript check and production static client
+npm run verify:runtime   # isolated production-mode API smoke check
 ```
 
 The versioned `.hoplite/settings.json` provides the same setup and run commands for Preview. A scoped development proxy supports browser same-origin requests within the platform-provided preview hostname namespace; it does not trust forwarded hosts or accept cross-site origins. Production does not use that proxy.
@@ -38,3 +39,5 @@ The versioned `.hoplite/settings.json` provides the same setup and run commands 
 `npm run build` emits only the public client to `dist/`. Production requires an HTTPS ingress serving **only `dist/`**, proxying `/api` to `npm start`, and providing explicit environment configuration from [.env.example](.env.example). Do not serve the repository root, server sources, database, reports, or certificates. Do not run the development launcher in production. Real bot secrets are operator-owned and must never enter `VITE_*` variables.
 
 See [service contracts and operations](docs/SERVICE.md), [asset provenance and reproduction](docs/ASSETS.md), and [verification evidence and remaining gates](docs/VERIFICATION.md).
+
+Build with the full dependency set first (`npm ci --include=dev && npm run build`). A runtime-only deployment can then install `npm ci --omit=dev`; `tsx` is a runtime dependency required by `npm start`. CI also removes development dependencies and checks production-mode startup using an in-memory database and a synthetic token, never production data or secrets.

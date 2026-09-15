@@ -9,15 +9,15 @@
     "build": "tsc --noEmit && vite build",
     "start": "tsx server/index.ts",
     "test": "tsx --test tests/*.test.ts",
+    "verify:runtime": "node --import tsx scripts/verify-runtime.mjs",
     "validate:content": "tsx scripts/validate-content.ts"
   },
-  "dependencies": { "react": "19.3.0", "react-dom": "19.3.0" },
+  "dependencies": { "react": "19.3.0", "react-dom": "19.3.0", "tsx": "4.23.13" },
   "devDependencies": {
     "@types/node": "26.5.1",
     "@types/react": "19.3.0",
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "6.1.1",
-    "tsx": "4.23.13",
     "typescript": "7.0.2",
     "vite": "8.3.0"
   }
