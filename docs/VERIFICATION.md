@@ -11,6 +11,7 @@ Final local run: **51/51 tests passed**, production build passed, and content va
 - `npm test`: deterministic resolver, permutation independence, strict owner DTOs, invalid commands, deadline admission, automatic Wait, readiness barrier, consent/control transfer, transactional retries, SQLite restart recovery, result/mastery settlement, session/Telegram signatures, origin rejection, EN/RU copy, exact public map previews, asset paths, and development static-source denial.
 - `npm run validate:content`: 30 exact graph variants, 20 deck families, 60/60 solution certificates replayed through the production resolver. The suite additionally covers all 3,840 delivered-preference profiles. `reports/content-validation.json` is server-side verification evidence, not a public runtime asset.
 - `npm run build`: TypeScript check and Vite production client compilation. No performance/SLO or sustained load claim follows from build duration.
+- `npm run verify:runtime`: production-mode API health and disabled development login, with an in-memory database and synthetic token. Also passed after a clean isolated `npm ci --omit=dev` with Vite and TypeScript absent; CI repeats this check after pruning development dependencies.
 
 ## Browser evidence (15 September 2026)
 
