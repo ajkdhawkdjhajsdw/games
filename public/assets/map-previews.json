@@ -1,0 +1,1322 @@
+[
+  {
+    "mapId": "M01",
+    "seatCount": 2,
+    "title": {
+      "en": "Open Water",
+      "ru": "Открытая вода"
+    },
+    "hint": {
+      "en": "Different berths can keep the harbor moving.",
+      "ru": "Разные причалы помогают гавани двигаться."
+    },
+    "nodes": [
+      {
+        "id": "B1",
+        "type": "berth",
+        "x": 0.14,
+        "y": 0.12
+      },
+      {
+        "id": "B2",
+        "type": "berth",
+        "x": 0.5,
+        "y": 0.12
+      },
+      {
+        "id": "B3",
+        "type": "berth",
+        "x": 0.86,
+        "y": 0.12
+      },
+      {
+        "id": "J1",
+        "type": "junction",
+        "x": 0.28,
+        "y": 0.43
+      },
+      {
+        "id": "J2",
+        "type": "junction",
+        "x": 0.72,
+        "y": 0.43
+      },
+      {
+        "id": "J3",
+        "type": "junction",
+        "x": 0.28,
+        "y": 0.68
+      },
+      {
+        "id": "J4",
+        "type": "junction",
+        "x": 0.72,
+        "y": 0.68
+      },
+      {
+        "id": "EA",
+        "type": "entry",
+        "x": 0.12,
+        "y": 0.89
+      },
+      {
+        "id": "EB",
+        "type": "entry",
+        "x": 0.88,
+        "y": 0.89
+      }
+    ],
+    "edges": [
+      {
+        "from": "EA",
+        "to": "J1"
+      },
+      {
+        "from": "EA",
+        "to": "J3"
+      },
+      {
+        "from": "EB",
+        "to": "J2"
+      },
+      {
+        "from": "EB",
+        "to": "J4"
+      },
+      {
+        "from": "J1",
+        "to": "B1"
+      },
+      {
+        "from": "J1",
+        "to": "B2"
+      },
+      {
+        "from": "J1",
+        "to": "B3"
+      },
+      {
+        "from": "J1",
+        "to": "J2"
+      },
+      {
+        "from": "J2",
+        "to": "B1"
+      },
+      {
+        "from": "J2",
+        "to": "B2"
+      },
+      {
+        "from": "J2",
+        "to": "B3"
+      },
+      {
+        "from": "J2",
+        "to": "J1"
+      },
+      {
+        "from": "J3",
+        "to": "B1"
+      },
+      {
+        "from": "J3",
+        "to": "B2"
+      },
+      {
+        "from": "J3",
+        "to": "B3"
+      },
+      {
+        "from": "J3",
+        "to": "J1"
+      },
+      {
+        "from": "J4",
+        "to": "B1"
+      },
+      {
+        "from": "J4",
+        "to": "B2"
+      },
+      {
+        "from": "J4",
+        "to": "B3"
+      },
+      {
+        "from": "J4",
+        "to": "J2"
+      }
+    ]
+  },
+  {
+    "mapId": "M02",
+    "seatCount": 2,
+    "title": {
+      "en": "Twin Channels",
+      "ru": "Два канала"
+    },
+    "hint": {
+      "en": "Look beyond the closest berth.",
+      "ru": "Посмотрите дальше ближайшего причала."
+    },
+    "nodes": [
+      {
+        "id": "B1",
+        "type": "berth",
+        "x": 0.14,
+        "y": 0.12
+      },
+      {
+        "id": "B2",
+        "type": "berth",
+        "x": 0.5,
+        "y": 0.12
+      },
+      {
+        "id": "B3",
+        "type": "berth",
+        "x": 0.86,
+        "y": 0.12
+      },
+      {
+        "id": "J1",
+        "type": "junction",
+        "x": 0.28,
+        "y": 0.43
+      },
+      {
+        "id": "J2",
+        "type": "junction",
+        "x": 0.72,
+        "y": 0.43
+      },
+      {
+        "id": "J3",
+        "type": "junction",
+        "x": 0.28,
+        "y": 0.68
+      },
+      {
+        "id": "J4",
+        "type": "junction",
+        "x": 0.72,
+        "y": 0.68
+      },
+      {
+        "id": "EA",
+        "type": "entry",
+        "x": 0.12,
+        "y": 0.89
+      },
+      {
+        "id": "EB",
+        "type": "entry",
+        "x": 0.88,
+        "y": 0.89
+      }
+    ],
+    "edges": [
+      {
+        "from": "EA",
+        "to": "J1"
+      },
+      {
+        "from": "EB",
+        "to": "J2"
+      },
+      {
+        "from": "J1",
+        "to": "B1"
+      },
+      {
+        "from": "J1",
+        "to": "B2"
+      },
+      {
+        "from": "J1",
+        "to": "J2"
+      },
+      {
+        "from": "J1",
+        "to": "J3"
+      },
+      {
+        "from": "J2",
+        "to": "B2"
+      },
+      {
+        "from": "J2",
+        "to": "B3"
+      },
+      {
+        "from": "J2",
+        "to": "J1"
+      },
+      {
+        "from": "J2",
+        "to": "J4"
+      },
+      {
+        "from": "J3",
+        "to": "B3"
+      },
+      {
+        "from": "J3",
+        "to": "J2"
+      },
+      {
+        "from": "J4",
+        "to": "B1"
+      },
+      {
+        "from": "J4",
+        "to": "J1"
+      }
+    ]
+  },
+  {
+    "mapId": "M03",
+    "seatCount": 2,
+    "title": {
+      "en": "The Gatehouse",
+      "ru": "У ворот"
+    },
+    "hint": {
+      "en": "A node can clear as another boat leaves.",
+      "ru": "Узел может освободиться, когда другая лодка уходит."
+    },
+    "nodes": [
+      {
+        "id": "B1",
+        "type": "berth",
+        "x": 0.14,
+        "y": 0.12
+      },
+      {
+        "id": "B2",
+        "type": "berth",
+        "x": 0.5,
+        "y": 0.12
+      },
+      {
+        "id": "B3",
+        "type": "berth",
+        "x": 0.86,
+        "y": 0.12
+      },
+      {
+        "id": "J1",
+        "type": "junction",
+        "x": 0.28,
+        "y": 0.43
+      },
+      {
+        "id": "J2",
+        "type": "junction",
+        "x": 0.72,
+        "y": 0.43
+      },
+      {
+        "id": "J3",
+        "type": "junction",
+        "x": 0.28,
+        "y": 0.68
+      },
+      {
+        "id": "J4",
+        "type": "junction",
+        "x": 0.72,
+        "y": 0.68
+      },
+      {
+        "id": "EA",
+        "type": "entry",
+        "x": 0.12,
+        "y": 0.89
+      },
+      {
+        "id": "EB",
+        "type": "entry",
+        "x": 0.88,
+        "y": 0.89
+      }
+    ],
+    "edges": [
+      {
+        "from": "EA",
+        "to": "J1"
+      },
+      {
+        "from": "EB",
+        "to": "J2"
+      },
+      {
+        "from": "J1",
+        "to": "B1"
+      },
+      {
+        "from": "J1",
+        "to": "J2"
+      },
+      {
+        "from": "J1",
+        "to": "J3"
+      },
+      {
+        "from": "J2",
+        "to": "B2"
+      },
+      {
+        "from": "J2",
+        "to": "B3"
+      },
+      {
+        "from": "J2",
+        "to": "J1"
+      },
+      {
+        "from": "J2",
+        "to": "J4"
+      },
+      {
+        "from": "J3",
+        "to": "B2"
+      },
+      {
+        "from": "J3",
+        "to": "J2"
+      },
+      {
+        "from": "J4",
+        "to": "B1"
+      },
+      {
+        "from": "J4",
+        "to": "J1"
+      }
+    ]
+  },
+  {
+    "mapId": "M04",
+    "seatCount": 2,
+    "title": {
+      "en": "Clockwise Basin",
+      "ru": "Круговой бассейн"
+    },
+    "hint": {
+      "en": "Follow the arrows; a larger loop can move together.",
+      "ru": "Следуйте стрелкам: большой круг может двигаться одновременно."
+    },
+    "nodes": [
+      {
+        "id": "B1",
+        "type": "berth",
+        "x": 0.14,
+        "y": 0.12
+      },
+      {
+        "id": "B2",
+        "type": "berth",
+        "x": 0.5,
+        "y": 0.12
+      },
+      {
+        "id": "B3",
+        "type": "berth",
+        "x": 0.86,
+        "y": 0.12
+      },
+      {
+        "id": "J1",
+        "type": "junction",
+        "x": 0.28,
+        "y": 0.43
+      },
+      {
+        "id": "J2",
+        "type": "junction",
+        "x": 0.72,
+        "y": 0.43
+      },
+      {
+        "id": "J3",
+        "type": "junction",
+        "x": 0.28,
+        "y": 0.68
+      },
+      {
+        "id": "J4",
+        "type": "junction",
+        "x": 0.72,
+        "y": 0.68
+      },
+      {
+        "id": "EA",
+        "type": "entry",
+        "x": 0.12,
+        "y": 0.89
+      },
+      {
+        "id": "EB",
+        "type": "entry",
+        "x": 0.88,
+        "y": 0.89
+      }
+    ],
+    "edges": [
+      {
+        "from": "EA",
+        "to": "J1"
+      },
+      {
+        "from": "EB",
+        "to": "J2"
+      },
+      {
+        "from": "J1",
+        "to": "B1"
+      },
+      {
+        "from": "J1",
+        "to": "J2"
+      },
+      {
+        "from": "J2",
+        "to": "B2"
+      },
+      {
+        "from": "J2",
+        "to": "J3"
+      },
+      {
+        "from": "J3",
+        "to": "B3"
+      },
+      {
+        "from": "J3",
+        "to": "J4"
+      },
+      {
+        "from": "J4",
+        "to": "B1"
+      },
+      {
+        "from": "J4",
+        "to": "B3"
+      },
+      {
+        "from": "J4",
+        "to": "J1"
+      }
+    ]
+  },
+  {
+    "mapId": "M05",
+    "seatCount": 2,
+    "title": {
+      "en": "The Spillway",
+      "ru": "Водосброс"
+    },
+    "hint": {
+      "en": "Some routes are easier to leave than to return to.",
+      "ru": "Из некоторых маршрутов проще выйти, чем вернуться."
+    },
+    "nodes": [
+      {
+        "id": "B1",
+        "type": "berth",
+        "x": 0.14,
+        "y": 0.12
+      },
+      {
+        "id": "B2",
+        "type": "berth",
+        "x": 0.5,
+        "y": 0.12
+      },
+      {
+        "id": "B3",
+        "type": "berth",
+        "x": 0.86,
+        "y": 0.12
+      },
+      {
+        "id": "J1",
+        "type": "junction",
+        "x": 0.28,
+        "y": 0.43
+      },
+      {
+        "id": "J2",
+        "type": "junction",
+        "x": 0.72,
+        "y": 0.43
+      },
+      {
+        "id": "J3",
+        "type": "junction",
+        "x": 0.28,
+        "y": 0.68
+      },
+      {
+        "id": "J4",
+        "type": "junction",
+        "x": 0.72,
+        "y": 0.68
+      },
+      {
+        "id": "EA",
+        "type": "entry",
+        "x": 0.12,
+        "y": 0.89
+      },
+      {
+        "id": "EB",
+        "type": "entry",
+        "x": 0.88,
+        "y": 0.89
+      }
+    ],
+    "edges": [
+      {
+        "from": "EA",
+        "to": "J1"
+      },
+      {
+        "from": "EB",
+        "to": "J2"
+      },
+      {
+        "from": "J1",
+        "to": "B1"
+      },
+      {
+        "from": "J1",
+        "to": "B2"
+      },
+      {
+        "from": "J1",
+        "to": "B3"
+      },
+      {
+        "from": "J1",
+        "to": "J3"
+      },
+      {
+        "from": "J2",
+        "to": "B2"
+      },
+      {
+        "from": "J2",
+        "to": "B3"
+      },
+      {
+        "from": "J2",
+        "to": "J1"
+      },
+      {
+        "from": "J2",
+        "to": "J4"
+      },
+      {
+        "from": "J3",
+        "to": "B1"
+      },
+      {
+        "from": "J3",
+        "to": "B2"
+      },
+      {
+        "from": "J3",
+        "to": "J2"
+      },
+      {
+        "from": "J4",
+        "to": "B1"
+      },
+      {
+        "from": "J4",
+        "to": "B3"
+      },
+      {
+        "from": "J4",
+        "to": "J1"
+      }
+    ]
+  },
+  {
+    "mapId": "M06",
+    "seatCount": 2,
+    "title": {
+      "en": "Single File",
+      "ru": "По одному"
+    },
+    "hint": {
+      "en": "Leaving space can be a productive move.",
+      "ru": "Оставить место — тоже полезный ход."
+    },
+    "nodes": [
+      {
+        "id": "B1",
+        "type": "berth",
+        "x": 0.14,
+        "y": 0.12
+      },
+      {
+        "id": "B2",
+        "type": "berth",
+        "x": 0.5,
+        "y": 0.12
+      },
+      {
+        "id": "B3",
+        "type": "berth",
+        "x": 0.86,
+        "y": 0.12
+      },
+      {
+        "id": "J1",
+        "type": "junction",
+        "x": 0.28,
+        "y": 0.43
+      },
+      {
+        "id": "J2",
+        "type": "junction",
+        "x": 0.72,
+        "y": 0.43
+      },
+      {
+        "id": "J3",
+        "type": "junction",
+        "x": 0.28,
+        "y": 0.68
+      },
+      {
+        "id": "J4",
+        "type": "junction",
+        "x": 0.72,
+        "y": 0.68
+      },
+      {
+        "id": "EA",
+        "type": "entry",
+        "x": 0.12,
+        "y": 0.89
+      },
+      {
+        "id": "EB",
+        "type": "entry",
+        "x": 0.88,
+        "y": 0.89
+      }
+    ],
+    "edges": [
+      {
+        "from": "EA",
+        "to": "J1"
+      },
+      {
+        "from": "EB",
+        "to": "J1"
+      },
+      {
+        "from": "J1",
+        "to": "B1"
+      },
+      {
+        "from": "J1",
+        "to": "B2"
+      },
+      {
+        "from": "J1",
+        "to": "B3"
+      },
+      {
+        "from": "J1",
+        "to": "J2"
+      },
+      {
+        "from": "J2",
+        "to": "B2"
+      },
+      {
+        "from": "J2",
+        "to": "B3"
+      },
+      {
+        "from": "J2",
+        "to": "J3"
+      },
+      {
+        "from": "J3",
+        "to": "B1"
+      },
+      {
+        "from": "J3",
+        "to": "B3"
+      },
+      {
+        "from": "J3",
+        "to": "J4"
+      },
+      {
+        "from": "J4",
+        "to": "B1"
+      },
+      {
+        "from": "J4",
+        "to": "B2"
+      },
+      {
+        "from": "J4",
+        "to": "J1"
+      }
+    ]
+  },
+  {
+    "mapId": "M07",
+    "seatCount": 2,
+    "title": {
+      "en": "Beacon Fork",
+      "ru": "Развилка у маяка"
+    },
+    "hint": {
+      "en": "A flexible boat can make room for a constrained one.",
+      "ru": "Лодка с выбором может уступить той, у которой его меньше."
+    },
+    "nodes": [
+      {
+        "id": "B1",
+        "type": "berth",
+        "x": 0.14,
+        "y": 0.12
+      },
+      {
+        "id": "B2",
+        "type": "berth",
+        "x": 0.5,
+        "y": 0.12
+      },
+      {
+        "id": "B3",
+        "type": "berth",
+        "x": 0.86,
+        "y": 0.12
+      },
+      {
+        "id": "J1",
+        "type": "junction",
+        "x": 0.28,
+        "y": 0.43
+      },
+      {
+        "id": "J2",
+        "type": "junction",
+        "x": 0.72,
+        "y": 0.43
+      },
+      {
+        "id": "J3",
+        "type": "junction",
+        "x": 0.28,
+        "y": 0.68
+      },
+      {
+        "id": "J4",
+        "type": "junction",
+        "x": 0.72,
+        "y": 0.68
+      },
+      {
+        "id": "EA",
+        "type": "entry",
+        "x": 0.12,
+        "y": 0.89
+      },
+      {
+        "id": "EB",
+        "type": "entry",
+        "x": 0.88,
+        "y": 0.89
+      }
+    ],
+    "edges": [
+      {
+        "from": "EA",
+        "to": "J1"
+      },
+      {
+        "from": "EB",
+        "to": "J2"
+      },
+      {
+        "from": "J1",
+        "to": "B1"
+      },
+      {
+        "from": "J1",
+        "to": "B2"
+      },
+      {
+        "from": "J1",
+        "to": "J2"
+      },
+      {
+        "from": "J1",
+        "to": "J3"
+      },
+      {
+        "from": "J2",
+        "to": "B3"
+      },
+      {
+        "from": "J2",
+        "to": "J1"
+      },
+      {
+        "from": "J2",
+        "to": "J4"
+      },
+      {
+        "from": "J3",
+        "to": "B3"
+      },
+      {
+        "from": "J3",
+        "to": "J2"
+      },
+      {
+        "from": "J4",
+        "to": "B1"
+      },
+      {
+        "from": "J4",
+        "to": "B2"
+      },
+      {
+        "from": "J4",
+        "to": "J1"
+      }
+    ]
+  },
+  {
+    "mapId": "M08",
+    "seatCount": 2,
+    "title": {
+      "en": "Ferry Crossing",
+      "ru": "У переправы"
+    },
+    "hint": {
+      "en": "More choices call for a clearer signal.",
+      "ru": "Чем больше вариантов, тем важнее понятный сигнал."
+    },
+    "nodes": [
+      {
+        "id": "B1",
+        "type": "berth",
+        "x": 0.14,
+        "y": 0.12
+      },
+      {
+        "id": "B2",
+        "type": "berth",
+        "x": 0.5,
+        "y": 0.12
+      },
+      {
+        "id": "B3",
+        "type": "berth",
+        "x": 0.86,
+        "y": 0.12
+      },
+      {
+        "id": "J1",
+        "type": "junction",
+        "x": 0.28,
+        "y": 0.43
+      },
+      {
+        "id": "J2",
+        "type": "junction",
+        "x": 0.72,
+        "y": 0.43
+      },
+      {
+        "id": "J3",
+        "type": "junction",
+        "x": 0.28,
+        "y": 0.68
+      },
+      {
+        "id": "J4",
+        "type": "junction",
+        "x": 0.72,
+        "y": 0.68
+      },
+      {
+        "id": "EA",
+        "type": "entry",
+        "x": 0.12,
+        "y": 0.89
+      },
+      {
+        "id": "EB",
+        "type": "entry",
+        "x": 0.88,
+        "y": 0.89
+      }
+    ],
+    "edges": [
+      {
+        "from": "EA",
+        "to": "J1"
+      },
+      {
+        "from": "EA",
+        "to": "J2"
+      },
+      {
+        "from": "EB",
+        "to": "J1"
+      },
+      {
+        "from": "EB",
+        "to": "J2"
+      },
+      {
+        "from": "J1",
+        "to": "B1"
+      },
+      {
+        "from": "J1",
+        "to": "B2"
+      },
+      {
+        "from": "J1",
+        "to": "J2"
+      },
+      {
+        "from": "J1",
+        "to": "J3"
+      },
+      {
+        "from": "J2",
+        "to": "B2"
+      },
+      {
+        "from": "J2",
+        "to": "B3"
+      },
+      {
+        "from": "J2",
+        "to": "J1"
+      },
+      {
+        "from": "J2",
+        "to": "J4"
+      },
+      {
+        "from": "J3",
+        "to": "B1"
+      },
+      {
+        "from": "J3",
+        "to": "B3"
+      },
+      {
+        "from": "J3",
+        "to": "J1"
+      },
+      {
+        "from": "J3",
+        "to": "J2"
+      },
+      {
+        "from": "J4",
+        "to": "B2"
+      },
+      {
+        "from": "J4",
+        "to": "J1"
+      },
+      {
+        "from": "J4",
+        "to": "J2"
+      }
+    ]
+  },
+  {
+    "mapId": "M09",
+    "seatCount": 2,
+    "title": {
+      "en": "One-Way Cut",
+      "ru": "Односторонний проход"
+    },
+    "hint": {
+      "en": "Check the next exit before you enter.",
+      "ru": "Проверьте следующий выход, прежде чем войти."
+    },
+    "nodes": [
+      {
+        "id": "B1",
+        "type": "berth",
+        "x": 0.14,
+        "y": 0.12
+      },
+      {
+        "id": "B2",
+        "type": "berth",
+        "x": 0.5,
+        "y": 0.12
+      },
+      {
+        "id": "B3",
+        "type": "berth",
+        "x": 0.86,
+        "y": 0.12
+      },
+      {
+        "id": "J1",
+        "type": "junction",
+        "x": 0.28,
+        "y": 0.43
+      },
+      {
+        "id": "J2",
+        "type": "junction",
+        "x": 0.72,
+        "y": 0.43
+      },
+      {
+        "id": "J3",
+        "type": "junction",
+        "x": 0.28,
+        "y": 0.68
+      },
+      {
+        "id": "J4",
+        "type": "junction",
+        "x": 0.72,
+        "y": 0.68
+      },
+      {
+        "id": "EA",
+        "type": "entry",
+        "x": 0.12,
+        "y": 0.89
+      },
+      {
+        "id": "EB",
+        "type": "entry",
+        "x": 0.88,
+        "y": 0.89
+      }
+    ],
+    "edges": [
+      {
+        "from": "EA",
+        "to": "J1"
+      },
+      {
+        "from": "EB",
+        "to": "J1"
+      },
+      {
+        "from": "EB",
+        "to": "J2"
+      },
+      {
+        "from": "J1",
+        "to": "B1"
+      },
+      {
+        "from": "J1",
+        "to": "J2"
+      },
+      {
+        "from": "J1",
+        "to": "J3"
+      },
+      {
+        "from": "J2",
+        "to": "B2"
+      },
+      {
+        "from": "J2",
+        "to": "B3"
+      },
+      {
+        "from": "J3",
+        "to": "B1"
+      },
+      {
+        "from": "J3",
+        "to": "B3"
+      },
+      {
+        "from": "J3",
+        "to": "J2"
+      },
+      {
+        "from": "J3",
+        "to": "J4"
+      },
+      {
+        "from": "J4",
+        "to": "B1"
+      },
+      {
+        "from": "J4",
+        "to": "B2"
+      },
+      {
+        "from": "J4",
+        "to": "J2"
+      }
+    ]
+  },
+  {
+    "mapId": "M10",
+    "seatCount": 2,
+    "title": {
+      "en": "Harbor Knot",
+      "ru": "Узел гавани"
+    },
+    "hint": {
+      "en": "Coordinate the junction and the berth.",
+      "ru": "Договоритесь и об узле, и о причале."
+    },
+    "nodes": [
+      {
+        "id": "B1",
+        "type": "berth",
+        "x": 0.14,
+        "y": 0.12
+      },
+      {
+        "id": "B2",
+        "type": "berth",
+        "x": 0.5,
+        "y": 0.12
+      },
+      {
+        "id": "B3",
+        "type": "berth",
+        "x": 0.86,
+        "y": 0.12
+      },
+      {
+        "id": "J1",
+        "type": "junction",
+        "x": 0.28,
+        "y": 0.43
+      },
+      {
+        "id": "J2",
+        "type": "junction",
+        "x": 0.72,
+        "y": 0.43
+      },
+      {
+        "id": "J3",
+        "type": "junction",
+        "x": 0.28,
+        "y": 0.68
+      },
+      {
+        "id": "J4",
+        "type": "junction",
+        "x": 0.72,
+        "y": 0.68
+      },
+      {
+        "id": "EA",
+        "type": "entry",
+        "x": 0.12,
+        "y": 0.89
+      },
+      {
+        "id": "EB",
+        "type": "entry",
+        "x": 0.88,
+        "y": 0.89
+      }
+    ],
+    "edges": [
+      {
+        "from": "EA",
+        "to": "J1"
+      },
+      {
+        "from": "EA",
+        "to": "J2"
+      },
+      {
+        "from": "EB",
+        "to": "J1"
+      },
+      {
+        "from": "EB",
+        "to": "J2"
+      },
+      {
+        "from": "J1",
+        "to": "B1"
+      },
+      {
+        "from": "J1",
+        "to": "B2"
+      },
+      {
+        "from": "J1",
+        "to": "J2"
+      },
+      {
+        "from": "J1",
+        "to": "J3"
+      },
+      {
+        "from": "J2",
+        "to": "B1"
+      },
+      {
+        "from": "J2",
+        "to": "B3"
+      },
+      {
+        "from": "J2",
+        "to": "J1"
+      },
+      {
+        "from": "J2",
+        "to": "J4"
+      },
+      {
+        "from": "J3",
+        "to": "B2"
+      },
+      {
+        "from": "J3",
+        "to": "J2"
+      },
+      {
+        "from": "J3",
+        "to": "J4"
+      },
+      {
+        "from": "J4",
+        "to": "B3"
+      },
+      {
+        "from": "J4",
+        "to": "J1"
+      },
+      {
+        "from": "J4",
+        "to": "J3"
+      }
+    ]
+  }
+]

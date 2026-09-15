@@ -1,0 +1,13 @@
+.map-topology { position: absolute; inset: 8%; width: 84%; height: 84%; filter: drop-shadow(0 1px 3px #102d3a); }
+.view-switch button, .header-tools .icon-btn, .language-btn { min-width: 44px; min-height: 44px; }
+.node-caption, .chart-node-wrap.berth .node-caption { font-size: 10px; }
+.status-rail > div > span { font-size: 11px; }
+.signal-explanation, .move-panel > .small-copy, .private-card > p, .private-label { font-size: 12px; }
+@media (max-width: 600px) {
+  .small-copy, .toggle-line, .toggle-line.compact, .node-row p, .node-row small { font-size: 14px; }
+  .signal-buttons button, .selected-move, .destination > strong { font-size: 12px; }
+  .hero-copy > p, .page-heading > p, .paper-card > p { font-size: 14px; }
+  .brand small { display: none; }
+  .header-tools { gap: 0; }
+  .status-rail > div > span { font-size: 10px; }
+}

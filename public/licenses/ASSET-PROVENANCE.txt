@@ -1,0 +1,18 @@
+QUIET HARBOR DEVELOPMENT ASSET PROVENANCE
+
+The raster illustrations and synthesized audio in public/assets were authored
+procedurally for this repository using scripts/generate-assets.py. They contain
+no stock art, sampled recordings, emoji, SVG assets, third-party melodies, or
+external image-generation output. No external visual or audio source license
+is required. Distribution rights for these original project assets follow the
+repository owner's project licensing; this notice does not assign a new public
+license to the project.
+
+These are development assets, NOT human-approved production artwork/audio.
+The specification's image-generation and human review gates remain pending.
+See docs/ASSETS.md for the delivered scope, limitations and reproduction steps.
+
+Golos Text is the sole third-party runtime asset. Its source is Google Fonts,
+ofl/golostext at c1eda9233c33ad7775b27efd794f931095cf6133. It is distributed under
+the SIL Open Font License 1.1, reproduced in Golos-Text-OFL.txt. The local WOFF2
+contains a Latin/Cyrillic/punctuation subset of the upstream variable font.
